@@ -79,7 +79,7 @@ A parent organizational unit named `Company Users` was created, with separate de
 
 Thirty user accounts were created manually, with five users placed into each department OU. This provided hands-on practice with account creation before moving to automation.
 
-![30 Users Manually Created](Screenshots/02%20-%20Active%20Directory%20Structure/02%20-%2030%20Users%20Manually%20Created.png)
+![30 Users Manually Created](Screenshots/02%20-%20Active%20Directory%20Structure/02%20-%20Manual%20User%20Provisioning%20Complete.png)
 
 ## 7. 200 Active Directory Users Created
 
