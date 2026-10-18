@@ -50,3 +50,10 @@ The remaining users were provisioned using PowerShell and CSV data, bringing the
 A clean Windows Server 2022 installation was created in VirtualBox to serve as the foundation for the Active Directory environment.
 
 ![Windows Server Base Installation](Screenshots/01%20-%20Domain%20Controller%20Setup/01%20-%20Windows%20Server%20Base%20Installation.png)
+
+## 2. DC01 Static IP Configuration
+
+The domain controller was configured with the static IPv4 address `10.0.0.10` so client systems and domain services could reliably locate the server.
+
+![DC01 Static IP Configuration](Screenshots/01%20-%20Domain%20Controller%20Setup/02%20-%20DC01%20Static%20IP%20Configuration.png)
+
