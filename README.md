@@ -57,3 +57,8 @@ The domain controller was configured with the static IPv4 address `10.0.0.10` so
 
 ![DC01 Static IP Configuration](Screenshots/01%20-%20Domain%20Controller%20Setup/02%20-%20DC01%20Static%20IP%20Configuration.png)
 
+## 3. Active Directory and DNS Installed
+
+Active Directory Domain Services and DNS were installed on `DC01`, preparing the server to function as the domain controller for the lab environment.
+
+![Active Directory and DNS Installed](Screenshots/01%20-%20Domain%20Controller%20Setup/03%20-%20DC01%20Active%20Directory%20and%20DNS%20Installed.png)
