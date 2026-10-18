@@ -30,7 +30,7 @@ The environment was organized into departmental organizational units for:
 
 Thirty users were created manually to practice the Active Directory user creation process.
 
-The remaining users were provisioned using PowerShell and CSV data, bringing the environment to a total of 200 simulated employee accounts.
+After 30 accounts were created manually, the remaining accounts were provisioned using PowerShell and CSV data, bringing the environment to 200 simulated employee accounts.
 
 ## Skills Demonstrated
 
@@ -43,7 +43,7 @@ The remaining users were provisioned using PowerShell and CSV data, bringing the
 - Manual user provisioning
 - PowerShell automation
 - CSV-based bulk account creation
-- Active Directory validation and user count verification
+- Active Directory validation with PowerShell
 
 ## 1. Windows Server Base Installation
 
