@@ -44,3 +44,9 @@ The remaining users were provisioned using PowerShell and CSV data, bringing the
 - PowerShell automation
 - CSV-based bulk account creation
 - Active Directory validation and user count verification
+
+## 1. Windows Server Base Installation
+
+A clean Windows Server 2022 installation was created in VirtualBox to serve as the foundation for the Active Directory environment.
+
+![Windows Server Base Installation](Screenshots/01%20-%20Domain%20Controller%20Setup/01%20-%20Windows%20Server%20Base%20Installation.png)
