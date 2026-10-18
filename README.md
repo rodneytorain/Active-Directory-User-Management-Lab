@@ -62,3 +62,53 @@ The domain controller was configured with the static IPv4 address `10.0.0.10` so
 Active Directory Domain Services and DNS were installed on `DC01`, preparing the server to function as the domain controller for the lab environment.
 
 ![Active Directory and DNS Installed](Screenshots/01%20-%20Domain%20Controller%20Setup/03%20-%20DC01%20Active%20Directory%20and%20DNS%20Installed.png)
+
+## 4. Active Directory Domain Created
+
+The Windows Server was promoted to a domain controller and a new Active Directory forest was created using the domain `lab.test`.
+
+![Active Directory Domain Created](Screenshots/01%20-%20Domain%20Controller%20Setup/04%20-%20Active%20Directory%20Domain%20Created.png)
+
+## 5. Department OU Structure
+
+A parent organizational unit named `Company Users` was created, with separate department OUs for IT, HR, Finance, Operations, Sales, and Management.
+
+![Department OU Structure](Screenshots/02%20-%20Active%20Directory%20Structure/01%20-%20Department%20OU%20Structure.png)
+
+## 6. 30 Users Manually Created
+
+Thirty user accounts were created manually, with five users placed into each department OU. This provided hands-on practice with account creation before moving to automation.
+
+![30 Users Manually Created](Screenshots/02%20-%20Active%20Directory%20Structure/02%20-%2030%20Users%20Manually%20Created.png)
+
+## 7. 200 Active Directory Users Created
+
+After validating the manual provisioning process, additional fictional employee accounts were created using CSV data and PowerShell automation. The environment was expanded to a total of 200 users.
+
+![200 Active Directory Users Created](Screenshots/03%20-%20User%20Provisioning/01%20-%20200%20Active%20Directory%20Users%20Created.png)
+
+## 8. PowerShell User Count Verification
+
+PowerShell was used to verify the final number of Active Directory accounts and confirm that the department totals matched the planned organizational structure.
+
+![PowerShell User Count Verification](Screenshots/03%20-%20User%20Provisioning/02%20-%20PowerShell%20User%20Count%20Verification.png)
+
+## Results
+
+The lab resulted in a working Windows Server 2022 domain controller running Active Directory Domain Services and DNS.
+
+The `lab.test` domain was organized into six departmental organizational units and populated with 200 simulated employee accounts.
+
+User provisioning was completed through a combination of manual administration and PowerShell automation using CSV data.
+
+## What I Learned
+
+- How to install and configure Windows Server 2022
+- How to configure a static IPv4 address for a domain controller
+- How to install Active Directory Domain Services and DNS
+- How to promote a Windows Server system to a domain controller
+- How to create and organize users using organizational units
+- How to manually provision Active Directory accounts
+- How to use CSV files and PowerShell to automate bulk account creation
+- How to check for duplicate usernames before provisioning accounts
+- How to verify Active Directory user counts using PowerShell
